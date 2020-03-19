@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.objet {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  
+  text-align: right;
+  width: 60%;
+  height: 400px;
+  margin-left: 20%!important;
+  background: cornflowerblue;
+  color: cornsilk;
+
+}
+.container{
+  flex-direction:column;
+}
+.todo{
+  padding-bottom: 105px;
+  padding-right: 50px;
+}
+.form-control{
+  padding: 2%;
+  border-radius: 10px;
+  margin-top: -55px;
+  margin-left: 108px!important;
+  width: 80%!important;
+}
+.btn{
+  margin-right: 54px;
+  margin-top: 10px;
+  padding: 20px!important;
+}
+.lets{
+  margin-top: 40px;
+  text-align: center;
+}
+.btnr{
+  display: flex;
+  align-items: center;
+}
+.coucou{
+  text-decoration: line-through;
+}
